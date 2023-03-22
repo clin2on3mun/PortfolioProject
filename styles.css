@@ -103,4 +103,6 @@
   padding-left: 0.5rem;
 }
 
-
+a:hover {
+  cursor: pointer;
+}
