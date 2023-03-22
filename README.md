@@ -53,41 +53,20 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Personal Portfolio<a name="about-project"></a>
-
-> Describe your project in 1 or 2 sentences.
-
-**Personal Portfolio** is a...
+**Personal Portfolio** is a portfolio project that shows my learning and work experience
 
 ## 🛠 Built With <a name="built-with">HTML&CSS</a>
-
-### Tech Stack <a name="tech-stack"></a>
-
-> Describe the tech stack and include only the relevant sections that apply to your project.
 
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="">HTML</a></li>
+    <li><a href="">HTML&CSS</a></li>
   </ul>
 </details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="">CSS</a></li>
-  </ul>
-</details>
-
-
 
 <!-- Features -->
 
-### Key Features <a name="key-features"></a>
-
-> Describe between 1-3 key features of the application.
-
-- **Portfolio project setup**
+- **Portfolio project logo**
 - **different background color**
 - **google font and images**
 
@@ -95,9 +74,6 @@ After you're finished please remove all the comments and instructions!
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo"></a>
-
-> Add a link to your deployed project.
 
 - [Live Demo Link](https://google.com)
 
@@ -105,9 +81,6 @@ After you're finished please remove all the comments and instructions!
 
 <!-- GETTING STARTED -->
 
-## 💻 Getting Started <a name="getting-started"></a>
-
-> Describe how a new developer could make use of your project.
 
 To get a local copy up and running, follow these steps.
 
@@ -189,9 +162,6 @@ Example:
 
 <!-- AUTHORS -->
 
-## 👥 Authors <a name="authors"></a>
-
-> Mention all of the collaborators of this project.
 
 👤 **MUNANA Clinton**
 
@@ -203,11 +173,6 @@ Example:
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
-
-## 🔭 Future Features <a name="future-features"></a>
-
-> Describe 1 - 3 features you will add to the project.
-
 - [ ] **Add more section of page**
 - [ ] **Add contents and images**
 - [ ] **using some web development technologies to improve the UI and user experience**
@@ -226,20 +191,11 @@ Feel free to check the [issues page](../../issues/).
 
 <!-- SUPPORT -->
 
-## ⭐️ Show your support <a name="support"></a>
-
-> Write a message to encourage readers to support your project
-
 If you like this project you can recommend to your friend, family and colleagues who want to use my services
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGEMENTS -->
-
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-> Give credit to everyone who inspired your codebase.
-
 I would like to thank microverse for guiding and providing with all great material to do my projects
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -252,10 +208,7 @@ I would like to thank microverse for guiding and providing with all great materi
 
 <!-- LICENSE -->
 
-## 📝 License <a name="license"></a>
-
-This project is [MIT](./LICENSE) licensed.
-
+This project is [MIT](./LICENSE.md) licensed.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
