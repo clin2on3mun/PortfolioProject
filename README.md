@@ -66,7 +66,7 @@ After you're finished please remove all the comments and instructions!
 
 <!-- Features -->
 
-- **Portfolio project logo**
+- **Portfolio Logo**
 - **different background color**
 - **google font and images**
 
@@ -80,9 +80,6 @@ After you're finished please remove all the comments and instructions!
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
-
-
-To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
@@ -107,7 +104,7 @@ Example commands:
   cd my-folder
   git clone git@github.com:clin2on3mun/PortfolioProject.git
 ```
--
+
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
