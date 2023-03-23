@@ -337,6 +337,7 @@ hr {
 
 .get-my-resume:hover {
   background-color: #1c1a19;
+  border: 1px solid #fff;
 }
 
 .line {
