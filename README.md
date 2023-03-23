@@ -64,22 +64,27 @@ After you're finished please remove all the comments and instructions!
   </ul>
 </details>
 
-<!-- Features -->
 
-- **Portfolio Logo**
+<!-- Features -->
+### Key Features <a name="key-features"></a>
+
+
+- **Portfolio project logo**
 - **different background color**
 - **google font and images**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
-
+## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Live Demo Link](https://google.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
+## 💻 Getting Started <a name="getting-started"></a>
+To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
@@ -104,13 +109,13 @@ Example commands:
   cd my-folder
   git clone git@github.com:clin2on3mun/PortfolioProject.git
 ```
-
+-
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
-
+## 👥 Authors <a name="authors"></a>
 
 👤 **MUNANA Clinton**
 
@@ -122,6 +127,8 @@ Example commands:
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
+## 🔭 Future Features <a name="future-features"></a>
+
 - [ ] **Add more section of page**
 - [ ] **Add contents and images**
 - [ ] **using some web development technologies to improve the UI and user experience**
@@ -139,6 +146,7 @@ Feel free to check the [issues page](../../issues/).
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- SUPPORT -->
+## ⭐️ Show your support <a name="support"></a>
 
 If you like this project you can recommend to your friend, family and colleagues who want to use my services
 
@@ -150,12 +158,12 @@ If you like this project you can recommend to your friend, family and colleagues
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FAQ (optional) -->
-
-
+## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
+## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE.md) licensed.
 
