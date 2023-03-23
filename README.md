@@ -64,7 +64,10 @@ After you're finished please remove all the comments and instructions!
   </ul>
 </details>
 
+
 <!-- Features -->
+### Key Features <a name="key-features"></a>
+
 
 - **Portfolio project logo**
 - **different background color**
@@ -73,15 +76,14 @@ After you're finished please remove all the comments and instructions!
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
+## 🚀 Live Demo <a name="live-demo"></a>
 
-
-- [Live Demo Link](https://google.com)
+- Live Demo Link is not available
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
-
-
+## 💻 Getting Started <a name="getting-started"></a>
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
@@ -109,59 +111,11 @@ Example commands:
 ```
 -
 
-### Install
-
-Install this project with:
-
-<!--
-Example command:
-
-```sh
-  cd my-project
-  gem install
-```
---->
-
-### Usage
-
-To run the project, execute the following command:
-
-<!--
-Example command:
-
-```sh
-  rails server
-```
---->
-
-### Run tests
-
-To run tests, run the following command:
-
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
-
-### Deployment
-
-You can deploy this project using:
-
-<!--
-Example:
-
-```sh
-
-```
- -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
-
+## 👥 Authors <a name="authors"></a>
 
 👤 **MUNANA Clinton**
 
@@ -173,6 +127,8 @@ Example:
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
+## 🔭 Future Features <a name="future-features"></a>
+
 - [ ] **Add more section of page**
 - [ ] **Add contents and images**
 - [ ] **using some web development technologies to improve the UI and user experience**
@@ -190,23 +146,24 @@ Feel free to check the [issues page](../../issues/).
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- SUPPORT -->
+## ⭐️ Show your support <a name="support"></a>
 
 If you like this project you can recommend to your friend, family and colleagues who want to use my services
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGEMENTS -->
-I would like to thank microverse for guiding and providing with all great material to do my projects
+**I would like to thank microverse for guiding and providing with all great material to do my projects**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FAQ (optional) -->
-
-
+## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
+## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE.md) licensed.
 

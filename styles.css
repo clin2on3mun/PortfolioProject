@@ -110,3 +110,322 @@ a {
 a:hover {
   text-decoration: none;
 }
+
+#work-section {
+  width: 20.438rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 7.5rem auto;
+}
+
+#recent-work-title {
+  text-align: center;
+  font-family: 'Crete Round', sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 52px;
+  letter-spacing: 0;
+}
+
+hr {
+  margin-top: 1.5rem;
+}
+
+#img-project {
+  width: 20.438rem;
+  height: 14.813rem;
+  margin-top: 5rem;
+}
+
+#project-description-title {
+  margin-top: 1.5rem;
+  font-family: 'Crete Round', sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 44px;
+  letter-spacing: 0;
+  text-align: left;
+}
+
+#project-description {
+  margin-top: 0.75rem;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+}
+
+.button-section {
+  margin-top: 0.75rem;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.btn-work {
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0;
+  text-align: left;
+  padding: 0.625rem 0.75rem;
+  border: 1px solid #8993a4;
+  background-color: #fff;
+}
+
+.view-button {
+  background: #ff6b00;
+  border: none;
+  padding: 0.75rem;
+  width: 7.75rem;
+  height: 3rem;
+  font-family: 'Inter', sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #fff;
+}
+
+.view-button:hover {
+  background-color: #fff5e1;
+  border: 1px solid #f55800;
+  color: #f55800;
+}
+
+#card-section {
+  margin-top: 1.5rem;
+  display: grid;
+  grid-template-columns: 20.438rem;
+  gap: 2rem;
+}
+
+.post {
+  height: 24.125rem;
+  background-image: url('images/back2.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-contents {
+  padding-top: 5rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin: 0 1rem 0 1rem;
+}
+
+.card-main-title {
+  font-family: 'Crete Round', sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 44px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #fff;
+  width: 20.563rem;
+}
+
+.card-description {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #fff;
+}
+
+.card-buttons {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.btn-card {
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0;
+  text-align: left;
+  padding: 0.625rem 0.75rem;
+  border: 1px solid #8993a4;
+  color: #fff;
+  background: #ffffff3d;
+  border-style: none;
+}
+
+.card-big-btn {
+  margin-top: 1rem;
+  height: 3rem;
+  padding: 0.75rem;
+  border: none;
+  background: #ff6b00;
+  font-family: 'Inter', sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #fff;
+}
+
+.card-big-btn:hover {
+  background-color: #fff5e1;
+  border: 1px solid #f55800;
+  color: #f55800;
+}
+
+#work-experience {
+  background: #1c1a19;
+}
+
+.background-image {
+  background-image: url('images/Frame.png');
+  background-repeat: no-repeat;
+  background-position: right 24.5rem;
+}
+
+.About-me {
+  padding: 7.5rem 1.5rem 8.1rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.about-title {
+  font-family: 'Crete Round', sans-serif;
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 88px;
+  letter-spacing: 0.3700000047683716px;
+  text-align: left;
+  color: #ff6b00;
+}
+
+.about-description {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #fff;
+}
+
+.get-my-resume {
+  font-family: 'Inter', sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  padding: 0.75rem;
+  border: none;
+  background-color: #ff6b00;
+  color: #fff;
+  width: 9.75rem;
+}
+
+.get-my-resume:hover {
+  background-color: #fff5e1;
+  border: 1px solid #f55800;
+  color: #f55800;
+}
+
+.line {
+  margin-top: 13rem;
+  border: 1px solid #fff;
+}
+
+.work-projects {
+  display: grid;
+  grid-template-columns: 300px;
+  justify-content: center;
+  gap: 1.75rem;
+  padding-bottom: 5.471rem;
+}
+
+.figures {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.figures1 {
+  display: flex;
+  align-items: center;
+  margin-left: 2rem;
+}
+
+.figures2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.diamond {
+  width: 18px;
+  height: 18px;
+  background-color: #ff6b00;
+  transform: rotate(45deg);
+  display: inline-block;
+  margin-right: 0.5rem;
+}
+
+.square {
+  background-color: #ff6b00;
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+  margin-right: 0.5rem;
+}
+
+.round {
+  background-color: #ff6b00;
+  width: 18px;
+  height: 18px;
+  border-radius: 100%;
+  display: inline-block;
+  margin-right: 0.5rem;
+}
+
+.work-project-title {
+  font-family: 'Inter', sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0;
+  color: #fff;
+}
+
+.work-project-titles {
+  text-align: center;
+  margin-left: 0.7rem;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.exp {
+  padding-top: 1.5rem;
+  font-family: 'Inter', sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 43px;
+  letter-spacing: 0;
+  text-align: center;
+  color: #fff;
+}
