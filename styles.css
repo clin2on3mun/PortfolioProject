@@ -160,6 +160,9 @@ hr {
 
 .button-section {
   margin-top: 0.75rem;
+}
+
+.buttons {
   display: flex;
   flex-wrap: wrap;
   gap: 0.75rem;
@@ -175,12 +178,6 @@ hr {
   padding: 0.625rem 0.75rem;
   border: 1px solid #8993a4;
   background-color: #fff;
-}
-
-.btn-work:hover {
-  cursor: pointer;
-  background-color: #1c1a19;
-  color: #fff;
 }
 
 .view-button {
@@ -199,7 +196,9 @@ hr {
 }
 
 .view-button:hover {
-  background-color: #1c1a19;
+  background-color: #fff5e1;
+  border: 1px solid #f55800;
+  color: #f55800;
 }
 
 #card-section {
@@ -254,15 +253,17 @@ hr {
 }
 
 .btn-card {
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0;
+  text-align: left;
+  padding: 0.625rem 0.75rem;
+  border: 1px solid #8993a4;
   color: #fff;
   background: #ffffff3d;
   border-style: none;
-}
-
-.btn-card:hover {
-  cursor: pointer;
-  background-color: #fff;
-  color: #1c1a19;
 }
 
 .card-big-btn {
@@ -281,7 +282,9 @@ hr {
 }
 
 .card-big-btn:hover {
-  background-color: #1c1a19;
+  background-color: #fff5e1;
+  border: 1px solid #f55800;
+  color: #f55800;
 }
 
 #work-experience {
@@ -336,8 +339,9 @@ hr {
 }
 
 .get-my-resume:hover {
-  background-color: #1c1a19;
-  border: 1px solid #fff;
+  background-color: #fff5e1;
+  border: 1px solid #f55800;
+  color: #f55800;
 }
 
 .line {
