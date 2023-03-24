@@ -199,7 +199,7 @@ hr {
   background-color: #fff5e1;
   border: 1px solid #f55800;
   color: #f55800;
-  cursor:pointer;
+  cursor: pointer;
 }
 
 #card-section {
@@ -286,7 +286,7 @@ hr {
   background-color: #fff5e1;
   border: 1px solid #f55800;
   color: #f55800;
-  cursor:pointer;
+  cursor: pointer;
 }
 
 #work-experience {
@@ -337,14 +337,14 @@ hr {
   background-color: #ff6b00;
   color: #fff;
   width: 9.75rem;
-  height:3rem;
+  height: 3rem;
 }
 
 .get-my-resume:hover {
   background-color: #fff5e1;
   border: 1px solid #f55800;
   color: #f55800;
-  cursor:pointer;
+  cursor: pointer;
 }
 
 .line {
