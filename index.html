@@ -215,13 +215,13 @@
         <article id="contact-form"> 
           <section class="contact-flex">  
             <h2 class="contact-title">I'm always <br/>interested in hearing about new projects,<br/> so if you'd like to <br/>chat please get in<br/> touch.</h2>
-            <form action="https://formspree.io/f/xvonwpvygit" method="POST">
-                <ul class="contact-inputs">
-                    <li><input type="text" placeholder="Full name" name="full name" required></li>
-                    <li><input type="email" placeholder="Email Address" name="email" required></li>
-                    <li><textarea placeholder="write me something ...."  name="message" required></textarea></li>
-                    <li class="form-button"><button type ="submit" class="view-button">Get in touch</button></li>  
-                </ul>
+            <form action="https://formspree.io/f/xvonwpvy" method="POST">
+            
+                    <input type="text" placeholder="Full name" name="full name" maxlength="30" required>
+                    <input type="email" placeholder="Email Address" name="email" maxlength="30" required>
+                    <textarea placeholder="write me something ...."  name="message" maxlength="500" required ></textarea>
+                    <section class="form-button"><button type ="submit" class="view-button">Get in touch</button></section>  
+                
                 </form>
             </section>  
         </article>

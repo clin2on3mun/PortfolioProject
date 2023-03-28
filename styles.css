@@ -134,8 +134,8 @@ hr {
 }
 
 #img-project {
-  width: 20.438rem;
-  height: 14.813rem;
+  /* width: 20.438rem;
+  height: 14.813rem; */
   margin-top: 5rem;
 }
 
@@ -452,7 +452,7 @@ ul {
   text-align: center;
 }
 
-.contact-inputs {
+form {
   display: flex;
   flex-direction: column;
   gap: 1.375rem;
