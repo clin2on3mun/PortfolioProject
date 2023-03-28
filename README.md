@@ -72,7 +72,7 @@ After you're finished please remove all the comments and instructions!
 - **Portfolio project logo**
 - **different background color**
 - **google font and images**
-- **contact form submission to my email through formspree**
+- **contact form submission to my email through Formspree**
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
