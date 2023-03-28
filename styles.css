@@ -432,3 +432,65 @@ ul {
   text-align: center;
   color: #fff;
 }
+
+.contact-flex {
+  display:flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items:center;
+}
+
+.contact-title {
+  text-align: center;
+  padding-top: 4.313rem;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color:#172B4D;
+
+}
+
+input {
+  width: 327px;
+  height: 48px;
+  padding:1rem;
+  border-style: none;
+  border-bottom:1px solid #DBD8D7;
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+
+}
+
+textarea {
+  width:20.438rem;
+  height:7.125rem;
+  background: #FBF8F7;
+  padding:12px;
+  border-style: none;
+  font-family: 'Inter';
+  font-size: 15px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+
+}
+.form-button {
+  display:flex;
+  justify-content: center;
+}
+
+.socialmedia-footer {
+  padding:1.563rem;
+  display: flex;
+  justify-content: center;
+  gap:1.375rem;
+}
+
