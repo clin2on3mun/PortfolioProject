@@ -9,7 +9,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="styles.css">
         <title>Munana Clinton </title>
-     </head>
+    </head>
      <body>
         <header id="header">
             <nav class="header-nav">
@@ -19,19 +19,27 @@
                     <span class="nav-bar"></span>
                     <span class="nav-bar"></span>
                 </section>
-                
+                <ul class = "menu-names menu-list color">
+                    <li><a href="#work-section" class="color">Portfolio</a></li>
+                    <li><a href="#work-experience" class="color">About</a></li>
+                    <li><a href="#contact-form" class="color">Contact</a></li>
+                    <li><img src="images/Icon - Mail.png"></li>
                 </nav>
-        </header>
+            </header>
         <main>
+        
         <article class="headline">
             <section class="headline-content">
-                <h1 id="intro-text">Hey There. Iam Alex</h1>
+                <div class="flex-headline">
+                <h1 id="intro-text">Hey There.</h1>
+                <h1 id="intro-text2">Iam Clinton.</h1>
                 <h2 id="description-text">I'm a Software Developer</h2>
                 <p id="welcome-text">I can help you build a product , feature or website 
                     Look through some of my work and experience! 
                     If you like what you see and have a project you need coded, 
                     don’t hesitate to contact me.
-                </p>  
+                </p> 
+            </div>
                 <section class="my-socials">
                     <a href="https://github.com/clin2on3mun"><img src="images/github.png" alt="github"></a>
                     <a href="https://www.linkedin.com/in/munana-clinton-b6122720b/"><img src="images/linkedIn.png" alt="linkedIn"></a>
@@ -41,12 +49,17 @@
                          
                 </section>
             </section>  
-        </article> 
+            
+        
+    </article> 
         <article id="work-section">
                 <section class="recent-work">
-                    <h2 id="recent-work-title">My Recent Works</h2>
-                    <hr>
+                    <div class="title-recent-word"><h2 id="recent-work-title">My Recent Works</h2>
+                    <hr></div>
                     <img id="img-project" src="images/Img-Placeholder.png" alt="images-work">
+                    <div class="multipost">
+                    <div class="big-image"></div>
+                    <div>
                     <h3 id="project-description-title">Multi-Post Stories</h3>
                     <p id="project-description">A daily selection of privately personalized reads;
                        no accounts or sign-ups required. has been the industry's standard dummy
@@ -54,19 +67,22 @@
                     </p>
                     <section class="button-section">
                        <ul class="buttons">
-
                            <li><button type="button"  class="btn-work">CSS</button></li>
                            <li><button type="button" class="btn-work">HTML</button></li>
                            <li><button type="button" class="btn-work">Bootstrap</button></li>
                            <li><button type="button" class="btn-work">Ruby</button></li>
-                           <li><button type="button" class="view-button">See project</button></li>
-                        </ul>   
-                    </section>       
+                          <li><button type="button" class="view-button">See project</button></li>
+                        </ul> 
+                        
+                    </section>
+                    </div>
+                    </div>  
                 </section>
                 <section id="card-section">
-                    <section class="post">
+                    <section class="post post1">
                         <section class="card-contents">
                             <h3 class="card-main-title">Profesional Art Printing Data</h3>
+                            
                             <p class="card-description">A daily selection of privately personalized reads;
                                no accounts or sign-ups required. Has been the industry's standard.
                             </p>
@@ -78,11 +94,13 @@
                             </ul>
                         </section>  
                         </section> 
+                        <img id="cursor" src="images/Shape.png">
                         <button class="card-big-btn" >See project</button>    
                     </section>
-                    <section class="post">
+                    <section class="post post2">
                         <section class="card-contents">
                             <h3 class="card-main-title">Profesional Art Printing Data</h3>
+                            <h3 class="card-main-title1">Data Dashboard Healthcare </h3>
                             <p class="card-description">A daily selection of privately personalized reads;
                                no accounts or sign-ups required. Has been the industry's standard.
                             </p>
@@ -96,9 +114,10 @@
                         </section> 
                         <button type="button" class="card-big-btn" >See project</button>    
                     </section>
-                    <section class="post">
+                    <section class="post post3">
                         <section class="card-contents">
                             <h3 class="card-main-title">Profesional Art Printing Data</h3>
+                            <h3 class="card-main-title1">Website Portfolio </h3>
                             <p class="card-description">A daily selection of privately personalized reads;
                                no accounts or sign-ups required. Has been the industry's standard.
                             </p>
@@ -112,9 +131,10 @@
                         </section> 
                         <button type="button" class="card-big-btn" >See project</button>    
                     </section>
-                    <section class="post">
+                    <section class="post post4">
                         <section class="card-contents">
                             <h3 class="card-main-title">Profesional Art Printing Data</h3>
+                            <h3 class="card-main-title1">Profesional Art Printing Data More </h3>
                             <p class="card-description">A daily selection of privately personalized reads;
                                no accounts or sign-ups required. Has been the industry's standard.
                             </p>
@@ -125,13 +145,13 @@
                                <li><button type="button" class="btn-card">Ruby</button></li>
                             </ul>
                         </section>
-                            
                         </section> 
                         <button type="button" class="card-big-btn" >See project</button>    
                     </section>
-                    <section class="post">
+                    <section class="post post5">
                         <section class="card-contents">
                             <h3 class="card-main-title">Profesional Art Printing Data</h3>
+                            <h3 class="card-main-title1">Data Dashboard Healthcare </h3>
                             <p class="card-description">A daily selection of privately personalized reads;
                                no accounts or sign-ups required. Has been the industry's standard.
                             </p>
@@ -142,13 +162,13 @@
                                <li><button type="button" class="btn-card">Ruby</button></li>
                             </ul>
                         </section>
-                            
                         </section> 
                         <button type="button" class="card-big-btn" >See project</button>    
                     </section>
-                    <section class="post">
+                    <section class="post post6">
                         <section class="card-contents">
                             <h3 class="card-main-title">Profesional Art Printing Data</h3>
+                            <h3 class="card-main-title1">Website Portfolio </h3>
                             <p class="card-description">A daily selection of privately personalized reads;
                                no accounts or sign-ups required. Has been the industry's standard.
                             </p>
@@ -158,8 +178,7 @@
                                <li><button type="button" class="btn-card">Bootstrap</button></li>
                                <li><button type="button" class="btn-card">Ruby</button></li>
                             </ul>
-                        </section>
-                            
+                        </section>  
                         </section> 
                         <button type="button" class="card-big-btn" >See project</button>    
                     </section>
@@ -167,8 +186,8 @@
             </section> 
         </article>  
         <article id="work-experience">
-            <section class="background-image">
             <section class="About-me">
+               <section class="About-content ">
                <h3 class="about-title">About me</h3>
                <p class="about-description">Hello I’m a software developer! I can help you build a product , 
                feature or website Look through some of my work and experience!
@@ -176,9 +195,11 @@
                don’t hesitate to contact me.
                </p>
                <button type="button" class="get-my-resume">Get my resume</button>
-               <section class="line"></section> 
-            </section> 
+            </section>
+            
         </section>
+        <div class="line"><hr></section> 
+               
             <section class="work-projects">
                 <section>
                     <section class="figures"><section class="diamond"></section><span class="work-project-title">Language</span></section>
@@ -196,6 +217,7 @@
                         <li class="exp">Ruby on Rails</li>
                         <li class="exp">RSpec</li>
                         <li class="exp">Capybara</li>
+                        <li class="exp">Selenium</li>
                     </ul>                      
                 </section>
                 <section>
@@ -207,25 +229,23 @@
                         <li class="exp">API Design</li>
                         <li class="exp">Web Development</li>
                     </ul>                      
-                </section>
-                
-            </section>
-                
+                </section> 
+            </section>    
         </article>
         <article id="contact-form"> 
           <section class="contact-flex">  
-            <h2 class="contact-title">I'm always <br/>interested in hearing about new projects,<br/> so if you'd like to <br/>chat please get in<br/> touch.</h2>
+            <h2 class="contact-title">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
             <form action="https://formspree.io/f/xvonwpvy" method="POST">
-            
                     <input type="text" placeholder="Full name" name="full name" maxlength="30" required>
                     <input type="email" placeholder="Email Address" name="email" maxlength="30" required>
                     <textarea placeholder="write me something ...."  name="message" maxlength="500" required ></textarea>
-                    <div class="form-button"><button type ="submit" class="view-button">Get in touch</button></div>  
-                
+                    <div class="form-button"><button type ="submit" class="view-button">Get in touch</button></div> 
                 </form>
             </section>  
         </article>
-            <hr>    
+           
+        </main>
+        <hr>    
         <footer>
             <ul class="socialmedia-footer">
                 <li><a href="https://github.com/clin2on3mun"><img src="images/git.png" alt="github"></a></li>
@@ -233,8 +253,7 @@
                  <li><a><img src="images/angelist4.png" alt="Angelist"></a></li>
                  <li><a href="https://twitter.com/ClintonMunana"><img src="images/twitter1.png" alt="twitter"></a></li>
                   <li><a><img src="images/Medium3.png" alt="Medium"></a></li>
-       </ul>
+            </ul>
         </footer>
-        </main>
      </body>
 </html>       
