@@ -662,6 +662,7 @@ textarea {
   .view-button {
     transition: width 2s;
   }
+
   .view-button:hover {
     width: 300px;
   }
@@ -843,10 +844,12 @@ textarea {
     from {
       background: #ff6b00;
     }
+
     to {
       background: #fff;
     }
   }
+
   .get-my-resume {
     animation-name: buttonChangeColor;
     animation-duration: 1s;
