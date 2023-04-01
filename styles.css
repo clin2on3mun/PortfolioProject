@@ -692,7 +692,7 @@ textarea {
   }
 
   #card-section {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 369px 369px 369px;
     column-gap: 20px;
     row-gap: 37px;
     padding-bottom: 130px;
@@ -728,6 +728,26 @@ textarea {
   }
 
   .post1 .card-big-btn {
+    margin-top: 340px;
+  }
+
+  .post2 .card-big-btn {
+    margin-top: 340px;
+  }
+
+  .post3 .card-big-btn {
+    margin-top: 340px;
+  }
+
+  .post4 .card-big-btn {
+    margin-top: 340px;
+  }
+
+  .post5 .card-big-btn {
+    margin-top: 340px;
+  }
+
+  .post6 .card-big-btn {
     margin-top: 340px;
   }
 
@@ -774,6 +794,7 @@ textarea {
     margin-top: 62px;
   }
 
+
   .post:hover {
     border: 1px solid blue;
     background-image: url('images/back2.png');
@@ -782,6 +803,10 @@ textarea {
   .post:hover .card-big-btn {
     display: block;
     cursor: pointer;
+  }
+
+  .post:hover .card-contents {
+    display: none;
   }
 
   .About-me {
@@ -871,7 +896,7 @@ textarea {
 
   #card-section {
     max-width: 60%;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 369px 369px;
     column-gap: 20px;
     row-gap: 37px;
     padding-bottom: 130px;
