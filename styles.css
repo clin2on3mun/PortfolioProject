@@ -28,7 +28,7 @@ ul {
 
 #logo {
   color: #fff;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1.12rem;
   font-weight: 700;
   line-height: 24px;
@@ -63,7 +63,7 @@ ul {
 @media (max-width: 767px) {
   .headline {
     background: #1c1a19;
-    background-image: url('images/back.png');
+    background-image: url("images/back.png");
     background-repeat: no-repeat;
     background-position: right 13rem;
   }
@@ -77,7 +77,7 @@ ul {
   }
 
   #description-text {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 1.5rem;
     font-weight: 700;
     line-height: 32px;
@@ -88,7 +88,7 @@ ul {
   }
 
   #welcome-text {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 1rem;
     font-weight: 400;
     line-height: 24px;
@@ -133,13 +133,13 @@ ul {
   }
 
   .background-image {
-    background-image: url('images/Frame.png');
+    background-image: url("images/Frame.png");
     background-repeat: no-repeat;
     background-position: right 24.5rem;
   }
 
   .About-me {
-    background-image: url('images/Frame.png');
+    background-image: url("images/Frame.png");
     background-repeat: no-repeat;
     background-position: bottom right;
     height: 35.5rem;
@@ -215,7 +215,7 @@ ul {
 }
 
 #intro-text {
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-size: 3.5rem;
   font-weight: 400;
   line-height: 64px;
@@ -226,7 +226,7 @@ ul {
 }
 
 #intro-text2 {
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-size: 3.5rem;
   font-weight: 400;
   line-height: 64px;
@@ -244,7 +244,7 @@ a:hover {
 
 #recent-work-title {
   text-align: center;
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-size: 40px;
   font-weight: 400;
   line-height: 52px;
@@ -261,7 +261,7 @@ hr {
 
 #project-description-title {
   margin-top: 1.5rem;
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-size: 32px;
   font-weight: 400;
   line-height: 44px;
@@ -271,7 +271,7 @@ hr {
 
 #project-description {
   margin-top: 0.75rem;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -290,7 +290,7 @@ hr {
 }
 
 .btn-work {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 15px;
   font-weight: 500;
   line-height: 20px;
@@ -306,7 +306,7 @@ hr {
   border: none;
   width: 7.75rem;
   height: 3rem;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 17px;
   font-weight: 700;
   line-height: 24px;
@@ -328,7 +328,7 @@ hr {
 
 .post {
   height: 24.125rem;
-  background-image: url('images/back2.png');
+  background-image: url("images/back2.png");
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -345,7 +345,7 @@ hr {
 }
 
 .card-main-title {
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-size: 32px;
   font-weight: 400;
   line-height: 44px;
@@ -355,7 +355,7 @@ hr {
 }
 
 .card-description {
-  font-family: 'Inter', serif;
+  font-family: "Inter", serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -369,7 +369,7 @@ hr {
 }
 
 .btn-card {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 15px;
   font-weight: 500;
   line-height: 20px;
@@ -388,7 +388,7 @@ hr {
   padding: 0.75rem;
   border: none;
   background: #ff6b00;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 17px;
   font-weight: 700;
   line-height: 24px;
@@ -409,7 +409,7 @@ hr {
 }
 
 .about-title {
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-size: 72px;
   font-weight: 400;
   line-height: 88px;
@@ -419,7 +419,7 @@ hr {
 }
 
 .about-description {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -429,7 +429,7 @@ hr {
 }
 
 .get-my-resume {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 17px;
   font-weight: 700;
   line-height: 24px;
@@ -480,7 +480,7 @@ hr {
 }
 
 .work-project-title {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 32px;
   font-weight: 700;
   line-height: 44px;
@@ -495,7 +495,7 @@ hr {
 
 .exp {
   padding-top: 1.5rem;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 22px;
   font-weight: 400;
   line-height: 43px;
@@ -509,7 +509,7 @@ hr {
 }
 
 .contact-title {
-  font-family: 'Inter', serif;
+  font-family: "Inter", serif;
   font-style: normal;
   font-weight: 700px;
   font-size: 32px;
@@ -530,7 +530,7 @@ input {
   padding: 1rem;
   border-style: none;
   border-bottom: 1px solid #dbd8d7;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 15px;
   font-weight: 400;
   line-height: 24px;
@@ -543,7 +543,7 @@ textarea {
   background: #fbf8f7;
   padding: 12px;
   border-style: none;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 15px;
   font-style: italic;
   font-weight: 400;
@@ -571,7 +571,7 @@ textarea {
 
   .headline {
     background: #1c1a19;
-    background-image: url('images/Illustration-header.png');
+    background-image: url("images/Illustration-header.png");
     background-repeat: no-repeat;
     background-size: 40%;
     background-position: right;
@@ -585,7 +585,7 @@ textarea {
   }
 
   a {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 15px;
     font-weight: 600;
     line-height: 20px;
@@ -613,7 +613,7 @@ textarea {
   }
 
   #description-text {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 32px;
@@ -622,7 +622,7 @@ textarea {
   }
 
   #welcome-text {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -648,7 +648,7 @@ textarea {
   }
 
   .big-image {
-    background-image: url('images/image2.png');
+    background-image: url("images/image2.png");
     background-repeat: no-repeat;
     height: 448px;
   }
@@ -657,6 +657,14 @@ textarea {
     display: grid;
     grid-template-columns: 0.45fr 1fr;
     margin-top: 100px;
+  }
+
+  .view-button {
+    transition: width 2s;
+  }
+
+  .view-button:hover {
+    width: 300px;
   }
 
   #recent-work-title {
@@ -680,7 +688,7 @@ textarea {
 
   #project-description {
     color: #091e42;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -699,23 +707,23 @@ textarea {
   }
 
   .post:nth-child(1) {
-    background-image: url('images/Mask\ Group.png');
+    background-image: url("images/Mask\ Group.png");
   }
 
   .post:nth-child(2) {
-    background-image: url('images/card2.png');
+    background-image: url("images/card2.png");
   }
 
   .post:nth-child(3) {
-    background-image: url('images/card3.png');
+    background-image: url("images/card3.png");
   }
 
   .post:nth-child(5) {
-    background-image: url('images/card2.png');
+    background-image: url("images/card2.png");
   }
 
   .post:nth-child(6) {
-    background-image: url('images/card3.png');
+    background-image: url("images/card3.png");
   }
 
   .post1 .card-contents {
@@ -760,7 +768,7 @@ textarea {
   }
 
   .card-main-title1 {
-    font-family: 'Crete Round', sans-serif;
+    font-family: "Crete Round", sans-serif;
     font-size: 32px;
     font-weight: 400;
     line-height: 44px;
@@ -796,7 +804,7 @@ textarea {
 
   .post:hover {
     border: 1px solid blue;
-    background-image: url('images/back2.png');
+    background-image: url("images/back2.png");
   }
 
   .post:hover .card-big-btn {
@@ -810,7 +818,7 @@ textarea {
 
   .About-me {
     padding: 4% 0 4% 0;
-    background-image: url('images/illustration-about\ me@2x.png');
+    background-image: url("images/illustration-about\ me@2x.png");
     background-size: 28rem;
     background-repeat: no-repeat;
     background-position: right;
@@ -825,11 +833,29 @@ textarea {
   }
 
   .about-description {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 32px;
+  }
+
+  @keyframes buttonChangeColor {
+    from {
+      background: #ff6b00;
+    }
+
+    to {
+      background: #fff;
+    }
+  }
+
+  .get-my-resume {
+    animation-name: buttonChangeColor;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    color: #172b4d;
+    border: 1px solid greenyellow;
   }
 
   .line hr {
