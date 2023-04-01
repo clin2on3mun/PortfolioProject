@@ -207,6 +207,11 @@ ul {
     justify-content: center;
     gap: 21px;
   }
+
+  .line hr {
+    width: 327px;
+    margin: auto;
+  }
 }
 
 #intro-text {
@@ -347,7 +352,6 @@ hr {
   letter-spacing: 0;
   text-align: left;
   color: #fff;
-  width: 20.563rem;
 }
 
 .card-description {
@@ -443,11 +447,6 @@ hr {
   border: 1px solid #f55800;
   color: #f55800;
   cursor: pointer;
-}
-
-.line hr {
-  width: 327px;
-  margin: auto;
 }
 
 .work-projects {
@@ -570,6 +569,14 @@ textarea {
     display: none;
   }
 
+  .headline {
+    background: #1c1a19;
+    background-image: url('images/Illustration-header.png');
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: right;
+  }
+
   .menu-list {
     display: flex;
     align-items: center;
@@ -602,7 +609,7 @@ textarea {
   .flex-headline {
     display: flex;
     flex-direction: column;
-    width: 566px;
+    max-width: 40%;
   }
 
   #description-text {
@@ -636,7 +643,7 @@ textarea {
     display: grid;
     justify-content: center;
     gap: 24px;
-    width: 85%;
+    max-width: 60%;
     margin: 0 auto;
   }
 
@@ -644,6 +651,10 @@ textarea {
     background-image: url('images/image2.png');
     background-repeat: no-repeat;
     height: 448px;
+  }
+
+  .recent-work {
+    /* max-width:60%; */
   }
 
   .title-recent-word {
@@ -685,7 +696,7 @@ textarea {
   }
 
   #card-section {
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 1fr 1fr 1fr;
     column-gap: 20px;
     row-gap: 37px;
     padding-bottom: 130px;
@@ -713,6 +724,11 @@ textarea {
 
   .post1 .card-contents {
     display: none;
+  }
+
+  .card-big-btn {
+    display: none;
+    z-index: 1;
   }
 
   .post1 .card-big-btn {
@@ -743,43 +759,28 @@ textarea {
   }
 
   .post2 .card-contents {
-    margin-top: 40px;
+    margin-top: 20px;
   }
 
   .post4 .card-contents {
-    margin-top: 40px;
+    margin-top: 20px;
   }
 
   .post5 .card-contents {
-    margin-top: 40px;
+    margin-top: 20px;
   }
 
   .post3 .card-contents {
-    margin-top: 80px;
+    margin-top: 62px;
   }
 
   .post6 .card-contents {
-    margin-top: 80px;
+    margin-top: 62px;
   }
 
-  .post2 .card-big-btn {
-    display: none;
-  }
-
-  .post3 .card-big-btn {
-    display: none;
-  }
-
-  .post4 .card-big-btn {
-    display: none;
-  }
-
-  .post5 .card-big-btn {
-    display: none;
-  }
-
-  .post6 .card-big-btn {
-    display: none;
+  .post:hover .card-big-btn {
+    display: block;
+    cursor: pointer;
   }
 
   .About-me {
@@ -791,15 +792,14 @@ textarea {
   }
 
   .About-content {
-    width: 85%;
+    max-width: 60%;
     display: flex;
     flex-direction: column;
     gap: 24px;
-    margin: 0 auto;
+    padding-left: 6%;
   }
 
   .about-description {
-    width: 566px;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -809,15 +809,10 @@ textarea {
 
   .about-title {
     /* height: 78px; */
-    width: 566px;
-  }
-
-  #about-image1 {
-    display: none;
   }
 
   .line hr {
-    width: 85%;
+    max-width: 85%;
     margin: 0 auto;
   }
 
@@ -867,12 +862,68 @@ textarea {
   }
 }
 
-@media only screen and (min-width: 900px) {
-  .headline {
-    background: #1c1a19;
-    background-image: url('images/Illustration-header.png');
-    background-repeat: no-repeat;
-    background-size: 42rem;
-    background-position: right;
+@media (min-width: 768px) and (max-width: 1230px) {
+  .work-projects {
+    padding: 5% 0 8% 0;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    max-width: 60%;
+    gap: 12%;
+    margin: 0 auto;
+  }
+
+  #card-section {
+    max-width: 60%;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 37px;
+    padding-bottom: 130px;
+  }
+
+  .title-recent-word {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 100px;
+  }
+
+  #recent-work-title {
+    text-align: center;
+  }
+
+  .title-recent-word hr {
+    align-self: center;
+  }
+
+  .multipost {
+    display: grid;
+    grid-template-columns: auto;
+    margin-top: 50px;
+  }
+
+  .recent-work {
+    max-width: 60%;
+    display: grid;
+    justify-content: center;
+  }
+
+  .big-image {
+    display: none;
+  }
+
+  #img-project {
+    display: block;
+  }
+
+  .exp {
+    font-size: 14px;
+  }
+
+  .work-project-title {
+    font-size: 24px;
+  }
+
+  .figures1 {
+    display: flex;
+    align-items: center;
   }
 }
