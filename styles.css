@@ -653,10 +653,6 @@ textarea {
     height: 448px;
   }
 
-  .recent-work {
-    /* max-width:60%; */
-  }
-
   .title-recent-word {
     display: grid;
     grid-template-columns: 0.45fr 1fr;
@@ -778,10 +774,16 @@ textarea {
     margin-top: 62px;
   }
 
+  .post:hover {
+    border: 1px solid blue;
+    background-image: url('images/back2.png');
+  }
+
   .post:hover .card-big-btn {
     display: block;
     cursor: pointer;
   }
+
 
   .About-me {
     padding: 4% 0 4% 0;
@@ -805,10 +807,6 @@ textarea {
     font-weight: 400;
     font-size: 20px;
     line-height: 32px;
-  }
-
-  .about-title {
-    /* height: 78px; */
   }
 
   .line hr {
@@ -895,13 +893,13 @@ textarea {
   }
 
   .multipost {
-    display: grid;
-    grid-template-columns: auto;
+    display: flex;
+    gap: 18px;
     margin-top: 50px;
   }
 
   .recent-work {
-    max-width: 60%;
+    max-width: 85%;
     display: grid;
     justify-content: center;
   }
@@ -912,6 +910,11 @@ textarea {
 
   #img-project {
     display: block;
+    align-self: flex-start;
+  }
+
+  #project-description {
+    font-size: 16px;
   }
 
   .exp {
@@ -925,5 +928,13 @@ textarea {
   .figures1 {
     display: flex;
     align-items: center;
+  }
+
+  .About-content {
+    max-width: 42%;
+  }
+
+  .about-description {
+    font-size: 18px;
   }
 }
