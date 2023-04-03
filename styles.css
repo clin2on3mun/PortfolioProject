@@ -736,27 +736,27 @@ textarea {
   }
 
   .post1 .card-big-btn {
-    margin-top: 334px;
+    margin-top: 335px;
   }
 
   .post2 .card-big-btn {
-    margin-top: 334px;
+    margin-top: 335px;
   }
 
   .post3 .card-big-btn {
-    margin-top: 334px;
+    margin-top: 335px;
   }
 
   .post4 .card-big-btn {
-    margin-top: 334px;
+    margin-top: 335px;
   }
 
   .post5 .card-big-btn {
-    margin-top: 334px;
+    margin-top: 335px;
   }
 
   .post6 .card-big-btn {
-    margin-top: 334px;
+    margin-top: 335px;
   }
 
   #cursor {
@@ -803,7 +803,7 @@ textarea {
   }
 
   .post:hover {
-    border: 1px solid blue;
+    border: 2px solid #4444f5;
     background-image: url('images/back2.png');
   }
 
