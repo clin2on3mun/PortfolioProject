@@ -302,7 +302,7 @@ hr {
 }
 
 .view-button {
-  background: #ff6b00;
+  background: #bd4500;
   border: none;
   width: 7.75rem;
   height: 3rem;
@@ -804,7 +804,7 @@ textarea {
 
   .post:hover {
     border: 2px solid #4444f5;
-    background-image: url('images/back2.png');
+    background-image: url("images/back2.png");
   }
 
   .post:hover .card-big-btn {
