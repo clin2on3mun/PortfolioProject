@@ -436,7 +436,7 @@ hr {
   letter-spacing: 0.03em;
   text-align: center;
   border: none;
-  background-color: #ff6b00;
+  background-color: #bd4500;
   color: #fff;
   width: 9.75rem;
   height: 3rem;
@@ -838,24 +838,6 @@ textarea {
     font-weight: 400;
     font-size: 20px;
     line-height: 32px;
-  }
-
-  @keyframes buttonChangeColor {
-    from {
-      background: #ff6b00;
-    }
-
-    to {
-      background: #fff;
-    }
-  }
-
-  .get-my-resume {
-    animation-name: buttonChangeColor;
-    animation-duration: 1s;
-    animation-iteration-count: infinite;
-    color: #172b4d;
-    border: 1px solid greenyellow;
   }
 
   .line hr {
