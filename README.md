@@ -76,9 +76,9 @@ After you're finished please remove all the comments and instructions!
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
-## 🚀 Live Demo <a href="https://clin2on3mun.github.io/PortfolioProject/"></a>
+## 🚀 Live Demo <a name="https://clin2on3mun.github.io/PortfolioProject/">Munana Clinton</a>
 
-- Live Demo Link is not available
+-  https://clin2on3mun.github.io/PortfolioProject/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
