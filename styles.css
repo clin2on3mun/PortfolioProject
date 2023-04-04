@@ -922,6 +922,7 @@ textarea {
   h2#description-text {
     font-size: 3vw;
   }
+
   #card-section {
     max-width: 60%;
     grid-template-columns: 369px 369px;
@@ -946,31 +947,34 @@ textarea {
 
   .multipost {
     display: flex;
-    align-items:flex-start;
+    align-items: flex-start;
     gap: 18px;
-    margin-top: 50px; 
+    margin-top: 50px;
   }
 
   .recent-work {
     max-width: 85%;
     display: grid;
     justify-content: center;
-    gap:15px;
+    gap: 15px;
   }
 
   .big-image {
     display: none;
   }
-  ul.recent-work-buttons{
-    display:flex;
-    gap:5px;
+
+  ul.recent-work-buttons {
+    display: flex;
+    gap: 5px;
   }
+
   .view-button:hover {
-    width:300px;
+    width: 300px;
   }
+
   #img-project {
     display: block;
-    margin:0;
+    margin: 0;
     align-self: flex-start;
   }
 
