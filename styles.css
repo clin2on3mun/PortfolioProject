@@ -948,8 +948,7 @@ textarea {
     display: flex;
     align-items:flex-start;
     gap: 18px;
-    margin-top: 50px;
-    
+    margin-top: 50px; 
   }
 
   .recent-work {
