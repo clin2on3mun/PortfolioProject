@@ -60,6 +60,7 @@ ul {
   display: none;
 }
 
+
 @media (max-width: 767px) {
   .headline {
     background: #1c1a19;
