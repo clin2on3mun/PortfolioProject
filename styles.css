@@ -14,8 +14,6 @@ ul {
 
 #header {
   background-color: #3c3a39;
-
-  /* height:1rem; */
 }
 
 .header-nav {
@@ -60,7 +58,65 @@ ul {
   display: none;
 }
 
+.close {
+  display: none;
+}
+
+.nav-links {
+  display: none;
+}
+
 @media (max-width: 767px) {
+  .visible {
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    display: block;
+    z-index: 1;
+    background: #3c3a39;
+    left: 0;
+    top: 0;
+    transition: 0.3s ease-in-out;
+  }
+
+  .close {
+    width: 14px;
+    height: 14px;
+    display: block;
+    position: absolute;
+    left: 90%;
+    top: 4%;
+  }
+
+  .menu-names {
+    padding-left: 1.5rem;
+    display: block;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    width: 90%;
+    margin-top: 15%;
+  }
+
+  .color {
+    font-family: 'inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 44px;
+    color: #fff5e1;
+    padding-left: 0.8rem;
+    text-decoration: none;
+  }
+
+  .menu-name {
+    border-bottom: 1px solid #6f6c6b;
+  }
+
+  .mail-icon {
+    display: none;
+  }
+
   .headline {
     background: #1c1a19;
     background-image: url("images/back.png");
@@ -577,6 +633,10 @@ textarea {
     background-position: right;
   }
 
+  .nav-links {
+    display: block;
+  }
+
   .menu-list {
     display: flex;
     align-items: center;
@@ -899,6 +959,10 @@ textarea {
     max-width: 60%;
     gap: 12%;
     margin: 0 auto;
+  }
+
+  .nav-links {
+    display: block;
   }
 
   h2#description-text {
