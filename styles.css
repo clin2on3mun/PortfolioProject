@@ -68,7 +68,7 @@ ul {
   .visible {
     position: fixed;
     height: 95vh;
-    width: 100% !important;
+    width: 100%;
     display: block;
     z-index: 1;
     background: #3c3a39;
@@ -81,17 +81,19 @@ ul {
     width: 14px;
     height: 14px;
     display: block;
-    align-self: flex-end;
+    position: absolute;
+    left: 90%;
+    top: 4%;
   }
 
   .menu-names {
-    padding-top: 6%;
     padding-left: 1.5rem;
     display: block;
     display: flex;
     flex-direction: column;
     gap: 18px;
     width: 90%;
+    margin-top: 15%;
   }
 
   .color {
@@ -107,7 +109,6 @@ ul {
 
   .menu-name {
     border-bottom: 1px solid #6f6c6b;
-    padding-bottom: 0.5rem;
   }
 
   .mail-icon {
