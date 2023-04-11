@@ -65,7 +65,7 @@ ul {
 }
 
 .nav-links {
-  display: none
+  display: none;
 }
 
 @media (max-width: 767px) {
@@ -633,6 +633,10 @@ textarea {
     background-repeat: no-repeat;
     background-size: 40%;
     background-position: right;
+  }
+
+  .nav-links {
+    display: block;
   }
 
   .menu-list {
