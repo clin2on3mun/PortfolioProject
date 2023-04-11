@@ -14,8 +14,6 @@ ul {
 
 #header {
   background-color: #3c3a39;
-
-  /* height:1rem; */
 }
 
 .header-nav {
@@ -71,7 +69,7 @@ ul {
 @media (max-width: 767px) {
   .visible {
     position: fixed;
-    height: 95vh;
+    height: 100vh;
     width: 100%;
     display: block;
     z-index: 1;
