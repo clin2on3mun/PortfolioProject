@@ -60,9 +60,13 @@ ul {
   display: none;
 }
 
-/* close- icon */
+.close {
+  display: none;
+}
 
-/* links section */
+.nav-links {
+  display: none
+}
 
 @media (max-width: 767px) {
   .visible {
