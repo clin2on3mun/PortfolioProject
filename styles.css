@@ -153,6 +153,46 @@ ul {
     color: #fff;
     width: 20.483rem;
   }
+ 
+  .modal {
+    padding:0.5rem;
+    overflow-y: scroll;
+    top: 0;
+    left:2%;
+    height:712px;
+    display: none;
+    margin:0 auto;
+  }
+  .close-icon {
+    width: 14px;
+    height: 14px;
+    display: block;
+    position: absolute;
+    left: 90%;
+    top: 4%;
+  } 
+  .modal-content {
+    display: block;
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    justify-content: center;
+    max-width:90%;
+    margin: 2rem auto 2rem auto;
+  }
+
+  .modal-content img {
+    width:100%;
+    height:220px;
+  }
+
+  .paragraph{
+    font-family: 'Inter', sans-serif;
+    font-weight:400;
+    font-size:16px;
+    line-height:24px;
+    /* margin-bottom:5px; */
+  }
 
   .my-socials {
     display: flex;
@@ -254,6 +294,14 @@ ul {
     height: 48px;
   }
 
+  .modaltitle {
+    display: none
+  }
+
+  .modal-descriptions {
+    display: none;
+  }
+  
   textarea {
     width: 20.438rem;
     height: 7.125rem;
@@ -268,6 +316,76 @@ ul {
     width: 327px;
     margin: auto;
   }
+}
+#backdrop {
+  background:rgba(0, 0, 0, .5);
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  pointer-events: none;
+  display:none;
+}
+#backdrop.active {
+  display: block;
+  pointer-events: all;
+}
+.modal {
+  position: fixed;
+  z-index: 100;
+  width: 95%;
+  top: 0;
+  left:2%;
+  display: none;
+  margin:0 auto;
+  
+}
+
+.modal.active {
+  display:block;
+  animation: fade-slide-in 0.3s ease-out forwards;
+}
+
+.modal-inside-button {
+  display:flex;
+}
+
+button.view-buttons {
+  /* background: #bd4500;
+  border: none;
+  width: 10rem;
+  height: 3rem;
+  font-family: "Inter", sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #fff; */
+  width: 129px;
+  height: 48px;
+  font-family: Inter;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.button-live img {
+  width: 18px;
+  height: 18px;
+}
+
+.button-source img {
+  width:17.99px;
+  height:20px;
+}
+.card {
+  background-color: #fff;
 }
 
 #intro-text {
@@ -786,7 +904,7 @@ textarea {
     background-image: url("images/card3.png");
   }
 
-  .post1 .card-contents {
+  .post:nth-child(1) .card-contents {
     display: none;
   }
 
@@ -795,27 +913,7 @@ textarea {
     z-index: 1;
   }
 
-  .post1 .card-big-btn {
-    margin-top: 335px;
-  }
-
-  .post2 .card-big-btn {
-    margin-top: 335px;
-  }
-
-  .post3 .card-big-btn {
-    margin-top: 335px;
-  }
-
-  .post4 .card-big-btn {
-    margin-top: 335px;
-  }
-
-  .post5 .card-big-btn {
-    margin-top: 335px;
-  }
-
-  .post6 .card-big-btn {
+  .post .card-big-btn {
     margin-top: 335px;
   }
 
@@ -842,23 +940,23 @@ textarea {
     display: none;
   }
 
-  .post2 .card-contents {
+  .post:nth-child(2) .card-contents {
     margin-top: 20px;
   }
 
-  .post4 .card-contents {
+  .post:nth-child(4) .card-contents {
     margin-top: 20px;
   }
 
-  .post5 .card-contents {
+  .post:nth-child(5) .card-contents {
     margin-top: 20px;
   }
 
-  .post3 .card-contents {
+  .post:nth-child(3) .card-contents {
     margin-top: 62px;
   }
 
-  .post6 .card-contents {
+  .post:nth-child(6) .card-contents {
     margin-top: 62px;
   }
 
@@ -874,6 +972,18 @@ textarea {
 
   .post:hover .card-contents {
     display: none;
+  }
+
+  .modal {
+    position: fixed;
+    z-index: 100;
+    width: 95%;
+    height:80vh;
+    top: 0;
+    left:2%;
+    display: none;
+    margin:0 auto;
+    
   }
 
   .About-me {
