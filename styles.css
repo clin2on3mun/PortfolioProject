@@ -348,8 +348,10 @@ ul {
   animation: fade-slide-in 0.3s ease-out forwards;
 }
 
-.modal-inside-button {
+.modal-button-pop {
   display:flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 button.view-buttons {
@@ -373,6 +375,7 @@ button.view-buttons {
   display:flex;
   flex-direction: row;
   align-items: center;
+  padding:1rem;
 }
 
 .button-live img {
