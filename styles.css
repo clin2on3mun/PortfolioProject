@@ -377,6 +377,7 @@ ul {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
   gap: 5px;
 }
 
@@ -388,14 +389,23 @@ button.view-buttons {
   font-weight: 700;
   line-height: 24px;
   letter-spacing: 0.03em;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
   padding: 1rem;
   background-color: #ff6b00;
   color: #fff;
   border: none;
+}
+
+.popUp-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  text-decoration: none;
+}
+
+.popUp-links:hover {
+  color: #fff;
 }
 
 .button-live img {
@@ -409,7 +419,7 @@ button.view-buttons {
 }
 
 button.button-source {
-  width: 158px;
+  width: 160px;
   height: 48px;
 }
 

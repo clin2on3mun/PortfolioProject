@@ -122,8 +122,8 @@ const modalContent = () => {
 
         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.</p>
         <ul class="modal-button-pop">
-            <li><button type="button" class="view-buttons button-live"><span>${e.SeeLive}</span><img src="images/live.png" class="live" alt="live"></button></li>
-            <li><button type="button" class="view-buttons button-source"><span>${e.seeSource}</span><img src="images/Group.png" class="source" alt="source"></button></li>
+            <li><button type="button" class="view-buttons button-live"><a href="https://clin2on3mun.github.io/PortfolioProject/" class="popUp-links"><span>${e.SeeLive}</span><img src="images/live.png" class="live" alt="live"></a></button></li>
+            <li><button type="button" class="view-buttons button-source"><a href="https://clin2on3mun/PortfolioProject/" class="popUp-links"><span>${e.seeSource}</span><img src="images/Group.png" class="source" alt="source"></a></button></li>
         </ul> 
         </div> 
        </div> 
