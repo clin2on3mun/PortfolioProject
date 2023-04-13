@@ -160,7 +160,7 @@ ul {
     width: 95%;
     top: 2%;
     left: 2%;
-    bottom: 2%;
+    bottom: 3%;
     display: none;
     overflow-y: scroll;
     margin: 0 auto;
@@ -188,7 +188,7 @@ ul {
     flex-direction: column;
     justify-content: center;
     max-width: 90%;
-    margin: 8rem auto 2rem auto;
+    margin: 8rem auto 5.3rem auto;
 
     /* height:700px; */
 
