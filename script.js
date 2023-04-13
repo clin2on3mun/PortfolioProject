@@ -5,21 +5,20 @@ const workSection = document.querySelector('#work-section');
 const cardSection = document.createElement('section');
 cardSection.id = 'card-section';
 
-const recentWorkContent = [{
+const cardSectionContent = [{
+  id: '1',
   recentWorkTitle: 'My Recent Works',
   imageSource: 'images/Img-Placeholder.png',
   ProjectDescriptionTitle: 'Multi-Post Stories',
   projectDescription: `A daily selection of privately personalized reads;
   no accounts or sign-ups required. has been the industry's standard dummy
   text ever since the 1500s, when an unknown printer took a standard dummy text.`,
-  recentWorkButton: ['CSS', 'HTML', 'Bootstrap', 'Ruby', 'See project'],
+  cardButton: ['CSS', 'HTML', 'Bootstrap', 'Ruby', 'See project'],
   SeeLive: '',
   seeSource: '',
 
-}];
-
-const cardSectionContent = [{
-  id: '1',
+}, {
+  id: '2',
   cardTitles: 'Website Portfolio',
   cardDescription: `A daily selection of privately personalized reads;
   no accounts or sign-ups required. Has been the industry's standard.`,
@@ -29,10 +28,10 @@ const cardSectionContent = [{
   cardButton: ['HTML', 'Bootstrap', 'Ruby', 'See project'],
   SeeLive: '',
   seeSource: '',
-  imageModal: 'images/feature_image.png',
+  imageModal: 'images/card3.png',
 },
 {
-  id: '2',
+  id: '3',
   cardTitles: 'Profesional Art Printing Data',
   cardDescription: `A daily selection of privately personalized reads;
   no accounts or sign-ups required. Has been the industry's standard.`,
@@ -41,11 +40,11 @@ const cardSectionContent = [{
   cardButton: ['HTML', 'Bootstrap', 'Ruby', 'See project'],
   SeeLive: '',
   seeSource: '',
-  imageModal: 'images/feature_image.png',
+  imageModal: 'images/card2.png',
 },
 
 {
-  id: '3',
+  id: '4',
   cardTitles: 'Profesional Art Printing Data',
   cardDescription: `A daily selection of privately personalized reads;
     no accounts or sign-ups required. Has been the industry's standard.`,
@@ -55,10 +54,10 @@ const cardSectionContent = [{
   cardButton: ['HTML', 'Bootstrap', 'Ruby', 'See project'],
   SeeLive: '',
   seeSource: '',
-  imageModal: 'images/feature_image.png',
+  imageModal: 'images/card1.png',
 },
 {
-  id: '4',
+  id: '5',
   cardTitles: 'Profesional Art Printing Data',
   cardDescription: `A daily selection of privately personalized reads;
       no accounts or sign-ups required. Has been the industry's standard.`,
@@ -71,7 +70,7 @@ const cardSectionContent = [{
   imageModal: 'images/feature_image.png',
 },
 {
-  id: '5',
+  id: '6',
   cardTitles: 'Profesional Art Printing Data',
   cardDescription: `A daily selection of privately personalized reads;
         no accounts or sign-ups required. Has been the industry's standard.`,
@@ -81,10 +80,10 @@ const cardSectionContent = [{
   cardButton: ['HTML', 'Bootstrap', 'Ruby', 'See project'],
   SeeLive: '',
   seeSource: '',
-  imageModal: 'images/feature_image.png',
+  imageModal: 'images/image2.png',
 },
 {
-  id: '6',
+  id: '7',
   cardTitles: 'Profesional Art Printing Data',
   cardDescription: `A daily selection of privately personalized reads;
           no accounts or sign-ups required. Has been the industry's standard.`,
@@ -99,62 +98,14 @@ const cardSectionContent = [{
 
 ];
 
-recentWorkContent.forEach((e) => {
-  workSection.insertAdjacentHTML('afterbegin', `<section class="recent-work">
-  <div class="title-recent-word"><h2 id="recent-work-title">${e.recentWorkTitle}</h2>
-  <hr></div>
-  <div class="multipost">
-  <img id="img-project" src=${e.imageSource} alt="images-work">
-  <div class="big-image"></div>
-  <div>
-  <h3 id="project-description-title">${e.ProjectDescriptionTitle}</h3>
-  <p id="project-description">${e.projectDescription}
-  </p>
-  <section class="button-section">
-     <ul class="buttons recent-work-buttons">
-         <li><button type="button"  class="btn-work">${e.recentWorkButton[0]}</button></li>
-         <li><button type="button" class="btn-work">${e.recentWorkButton[1]}</button></li>
-         <li><button type="button" class="btn-work">${e.recentWorkButton[2]}</button></li>
-         <li><button type="button" class="btn-work">${e.recentWorkButton[3]}</button></li>
-        <li><button type="button" class="view-button modal-button">${e.recentWorkButton[4]}</button></li>
-      </ul> 
-      
-  </section>
-  </div>
-  </div>
-  <div id="backdrop"></div>
-            <div class="modal card">
-            <img src="images/Icon.png" class="close-icon">
-            <h3 class="modalTitle">${e.recentWorkTitle}</h3>
-            <div class="modal-content">
-            <ul class="buttons grid-button recent-work-buttons">
-            <li><button type="button"  class="btn-work">${e.recentWorkButton[0]}</button></li>
-            <li><button type="button" class="btn-work">${e.recentWorkButton[1]}</button></li>
-            <li><button type="button" class="btn-work">${e.recentWorkButton[3]}</button></li></ul>
-            <img src="${e.imageSource}" alt = "project image" class="feature_img">
-            <div class="grid-modal">
-            <p class="paragraph">${e.projectDescription}</p>
-            <ul class="modal-button-pop">
-                <li><button type="button" class="view-buttons button-live"><a href="${e.SeeLive}" class="popUp-links"><span>see Live</span><img src="images/live.png" class="live" alt="live"></a></button></li>
-                <li><button type="button" class="view-buttons button-source"><a href="${e.seeSource}" class="popUp-links"><span> see Source </span><img src="images/Group.png" class="source" alt="source"></a></button></li>
-            </ul> 
-            </div> 
-           </div> 
-            </div>  
-  </section>`);
-});
-
-const recentWork = document.querySelector('.recent-work');
-
-recentWork.insertAdjacentElement('afterend', cardSection);
-
 const cardSectionOutput = () => {
-  cardSection.innerHTML = cardSectionContent.map((x) => {
+  workSection.innerHTML = cardSectionContent.map((x, index) => {
     const {
+      recentWorkTitle, imageSource, ProjectDescriptionTitle, projectDescription,
       id, cardTitles, cardDescription, cardButton, imageModal, modalDescription, SeeLive, seeSource,
     } = x;
-
-    return `<section class="post">
+    if (index !== 0) {
+      return cardSection.insertAdjacentHTML('afterbegin', `<section class="post">
     <section class="card-contents">
         <h3 class="card-main-title">${cardTitles}</h3>
         <p class="card-description">${cardDescription}</p>
@@ -186,12 +137,56 @@ const cardSectionOutput = () => {
             </div> 
            </div> 
             </div>  
-</section>`;
+</section>`);
+    }
+    return `<section class="recent-work">
+  <div class="title-recent-word"><h2 id="recent-work-title">${recentWorkTitle}</h2>
+  <hr></div>
+  <div class="multipost">
+  <img id="img-project" src=${imageSource} alt="images-work">
+  <div class="big-image"></div>
+  <div>
+  <h3 id="project-description-title">${ProjectDescriptionTitle}</h3>
+  <p id="project-description">${projectDescription}
+  </p>
+  <section class="button-section">
+     <ul class="buttons recent-work-buttons">
+         <li><button type="button"  class="btn-work">${cardButton[0]}</button></li>
+         <li><button type="button" class="btn-work">${cardButton[1]}</button></li>
+         <li><button type="button" class="btn-work">${cardButton[2]}</button></li>
+         <li><button type="button" class="btn-work">${cardButton[3]}</button></li>
+        <li><button type="button" class="view-button modal-button">${cardButton[4]}</button></li>
+      </ul> 
+      
+  </section>
+  </div>
+  </div>
+  <div id="backdrop"></div>
+            <div class="modal card">
+            <img src="images/Icon.png" class="close-icon">
+            <h3 class="modalTitle">${recentWorkTitle}</h3>
+            <div class="modal-content">
+            <ul class="buttons grid-button recent-work-buttons">
+            <li><button type="button"  class="btn-work">${cardButton[0]}</button></li>
+            <li><button type="button" class="btn-work">${cardButton[1]}</button></li>
+            <li><button type="button" class="btn-work">${cardButton[3]}</button></li></ul>
+            <img src="${imageSource}" alt = "project image" class="feature_img">
+            <div class="grid-modal">
+            <p class="paragraph">${projectDescription}</p>
+            <ul class="modal-button-pop">
+                <li><button type="button" class="view-buttons button-live"><a href="${SeeLive}" class="popUp-links"><span>see Live</span><img src="images/live.png" class="live" alt="live"></a></button></li>
+                <li><button type="button" class="view-buttons button-source"><a href="${seeSource}" class="popUp-links"><span> see Source </span><img src="images/Group.png" class="source" alt="source"></a></button></li>
+            </ul> 
+            </div> 
+           </div> 
+            </div>  
+  </section>`;
   }).join('');
 };
 
 cardSectionOutput();
-
+const recentWork = document.querySelector('.recent-work');
+recentWork.insertAdjacentElement('afterend', cardSection);
 const buttonRecentWork = document.querySelector('.modal-button');
 const buttonCard = document.querySelectorAll('[data-modal-target]');
 const backdrop = document.querySelector('#backdrop');
