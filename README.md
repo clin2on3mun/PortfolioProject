@@ -56,7 +56,7 @@ After you're finished please remove all the comments and instructions!
 **Personal Portfolio** is a portfolio project that shows my learning and work experience
 
 ## 🛠 Built With <a name="built-with">HTML&CSS</a>
-
+### Tech Stack <a name="tech-stack"></a>
 <details>
   <summary>Client</summary>
   <ul>
@@ -73,12 +73,14 @@ After you're finished please remove all the comments and instructions!
 - **different background color**
 - **google font and images**
 - **contact form submission to my email through Formspree**
+-**Mobile Menu and project pop up**
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
-## 🚀 Live Demo <a name="https://clin2on3mun.github.io/PortfolioProject/">Munana Clinton</a>
+## 🚀 Live Demo <a name=""></a>
 
--  https://clin2on3mun.github.io/PortfolioProject/
+-  - [Live Demo Link](https://clin2on3mun.github.io/PortfolioProject/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -153,12 +155,13 @@ If you like this project you can recommend to your friend, family and colleagues
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGEMENTS -->
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
 **I would like to thank microverse for guiding and providing with all great material to do my projects**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FAQ (optional) -->
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
