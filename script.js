@@ -152,7 +152,6 @@ const closebutton = document.querySelector('img.close-icon');
 closebutton.addEventListener('click', () => {
   backdrop.classList.remove('active');
   modals.classList.remove('active');
-  console.log('closed');
 });
 
 hamburgMenu.addEventListener('click', () => {
