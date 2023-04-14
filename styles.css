@@ -739,13 +739,13 @@ hr {
   height: 262px;
 }
 
-/* .validation-msg {
+.validation-msg {
   color: red;
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
   background-color: white;
   text-align: center;
-} */
+} 
 
 form {
   display: flex;
