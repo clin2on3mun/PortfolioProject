@@ -6,6 +6,7 @@ const cardSection = document.createElement('section');
 cardSection.id = 'card-section';
 const form = document.querySelector('form');
 const email = document.querySelector('input[type=email]');
+
 const validatedOutput = document.querySelector('.validation-msg');
 
 const cardSectionContent = [{
@@ -248,3 +249,22 @@ form.addEventListener('submit', (e) => {
     validatedOutput.textContent = 'email should be lower case letter';
   }
 });
+
+form.addEventListener('input', () => {
+  const data = {
+    name: document.querySelector('#name').value,
+    email: document.querySelector('#email').value,
+    message: document.querySelector('#message').value,
+  };
+
+  localStorage.setItem('data', JSON.stringify(data));
+});
+const parsedFormData = JSON.parse(localStorage.getItem('data'));
+if (parsedFormData) {
+  const fullName = document.querySelector('#name');
+  fullName.value = parsedFormData.name;
+  const email = document.querySelector('#email');
+  email.value = parsedFormData.email;
+  const message = document.querySelector('#message');
+  message.value = parsedFormData.message;
+}
