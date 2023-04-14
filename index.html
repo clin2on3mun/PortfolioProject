@@ -112,9 +112,10 @@
           <section class="contact-flex">  
             <h2 class="contact-title">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
             <form action="https://formspree.io/f/xvonwpvy" method="POST">
-                    <input type="text" placeholder="Full name" name="full name" maxlength="30" >
-                    <input type="email" placeholder="Email Address" name="email" maxlength="30" >
-                    <textarea placeholder="write me something ...."  name="message" maxlength="500"  ></textarea>
+                    <input type="text" placeholder="Full name" name="full name" maxlength="30" required >
+                    <input type="email" placeholder="Email Address" name="email" maxlength="30" required>
+                    <textarea placeholder="write me something ...."  name="message" maxlength="500" required ></textarea>
+                    <span class="validation-msg"></span>
                     <div class="form-button"><button type ="submit" class="view-button">Get in touch</button></div> 
                 </form>
             </section>  

@@ -739,6 +739,14 @@ hr {
   height: 262px;
 }
 
+.validation-msg {
+  color: red;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  background-color: white;
+  text-align: center;
+}
+
 form {
   display: flex;
   flex-direction: column;
@@ -1135,7 +1143,7 @@ textarea {
 
   form {
     width: 50%;
-    height: 330px;
+    height: 400px;
   }
 
   .form-button {

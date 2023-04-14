@@ -4,6 +4,9 @@ const closeIcon = document.querySelector('.close');
 const workSection = document.querySelector('#work-section');
 const cardSection = document.createElement('section');
 cardSection.id = 'card-section';
+const form = document.querySelector('form');
+const email = document.querySelector('input[type=email]');
+const validatedOutput = document.querySelector('.validation-msg');
 
 const cardSectionContent = [{
   id: '1',
@@ -234,4 +237,14 @@ document.querySelectorAll('.color').forEach((n) => n.addEventListener('click', (
 }));
 closeIcon.addEventListener('click', () => {
   menuList.classList.remove('visible');
+});
+
+form.addEventListener('submit', (e) => {
+  const emailValidation = /^[a-z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+  if (emailValidation.test(email.value)) {
+    form.submit();
+  } else {
+    e.preventDefault();
+    validatedOutput.textContent = 'email should be lower case letter';
+  }
 });
