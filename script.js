@@ -5,9 +5,7 @@ const workSection = document.querySelector('#work-section');
 const cardSection = document.createElement('section');
 cardSection.id = 'card-section';
 const form = document.querySelector('form');
-const fullName = document.querySelector('input[type=text]');
 const email = document.querySelector('input[type=email]');
-const message = document.querySelector('textarea');
 const validatedOutput = document.querySelector('.validation-msg');
 
 const cardSectionContent = [{
@@ -240,22 +238,13 @@ document.querySelectorAll('.color').forEach((n) => n.addEventListener('click', (
 closeIcon.addEventListener('click', () => {
   menuList.classList.remove('visible');
 });
-const errorMessage = [];
-form.addEventListener('submit', (e) => {
-  if (fullName.value.trim() === '') {
-    errorMessage.push('Name field is required');
-  } else if (email.value.trim() === '') {
-    errorMessage.push('Email field is required');
-  } else if (email.value !== email.value.toLowerCase()) {
-    errorMessage.push('use lower case letter in email field');
-  } else if (message.value.trim() === '') {
-    errorMessage.push('Message field is required');
-  }
 
-  if (errorMessage.length > 0) {
-    e.preventDefault();
-    validatedOutput.textContent = errorMessage.join(',');
+form.addEventListener('submit', (e) => {
+  const emailValidation = /^[a-z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+  if (emailValidation.test(email.value)) {
+    form.submit();
   } else {
-    validatedOutput.textContent = '';
+    e.preventDefault();
+    validatedOutput.textContent = 'email should be lower case letter';
   }
 });

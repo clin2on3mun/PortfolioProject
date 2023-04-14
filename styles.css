@@ -742,10 +742,10 @@ hr {
 .validation-msg {
   color: red;
   font-family: 'Poppins', sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   background-color: white;
   text-align: center;
-} 
+}
 
 form {
   display: flex;
