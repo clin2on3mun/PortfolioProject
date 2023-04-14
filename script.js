@@ -259,12 +259,12 @@ form.addEventListener('input', () => {
 
   localStorage.setItem('data', JSON.stringify(data));
 });
- const parsedFormData = JSON.parse(localStorage.getItem('data'))
- if(parsedFormData) {
-     const fullName = document.querySelector('#name')
-     fullName.value = parsedFormData.name;
-     const email = document.querySelector('#email')
-     email.value = parsedFormData.email;
-     const message= document.querySelector('#message')
-     message.value = parsedFormData.message
- }
+const parsedFormData = JSON.parse(localStorage.getItem('data'));
+if (parsedFormData) {
+  const fullName = document.querySelector('#name');
+  fullName.value = parsedFormData.name;
+  const email = document.querySelector('#email');
+  email.value = parsedFormData.email;
+  const message = document.querySelector('#message');
+  message.value = parsedFormData.message;
+}
