@@ -23,16 +23,18 @@ const cardSectionContent = [{
 
 }, {
   id: '2',
-  cardTitles: 'Website Portfolio',
-  cardDescription: `A daily selection of privately personalized reads;
-  no accounts or sign-ups required. Has been the industry's standard.`,
-  modalDescription: `Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown okay sir
+  cardTitles: 'Youth Empowering Summit Africa',
+  cardDescription: `This is an Youth Empowering Africa summit event
+   website that describes the event were it will take place and show all details needed for the user to understand what the event is all about 
+  and shows recent events in about page, it is an exciting project.`,
+  modalDescription: `This is an Youth Empowering Africa summit event website 
+  that describes the event were it will take place and show all details needed for the user to understand what the event is
+   all about and shows recent events in about page, it is an exciting project.
   `,
-  cardButton: ['HTML', 'Bootstrap', 'Ruby', 'See project'],
-  SeeLive: '',
-  seeSource: '',
-  imageModal: 'images/card3.png',
+  cardButton: ['HTML', 'Bootstrap', 'Javascript', 'See project'],
+  SeeLive: 'https://clin2on3mun.github.io/YouthEmpowering/',
+  seeSource: 'https://github.com/clin2on3mun/YouthEmpowering',
+  imageModal: 'images/desktop-version.JPG',
 },
 {
   id: '3',
@@ -126,11 +128,11 @@ const cardSectionOutput = () => {
             <div class=" card modal-card-section" id="modal${id}">
             <button type="button" data-modal-close-button> <img src="images/Icon.png" class="close-icon"></button>
             <h3 class="modalTitle">${cardTitles}</h3>
-            <div class="modal-content">
             <ul class="buttons grid-button recent-work-buttons">
             <li><button type="button"  class="btn-work">${cardButton[0]}</button></li>
             <li><button type="button" class="btn-work">${cardButton[1]}</button></li>
             <li><button type="button" class="btn-work">${cardButton[2]}</button></li></ul>
+            <div class="modal-content">
             <img src="${imageModal}" alt = "project image" class="feature_img">
             <div class="grid-modal">
             <p class="paragraph">${modalDescription}</p>
