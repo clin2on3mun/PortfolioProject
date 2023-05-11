@@ -945,7 +945,7 @@ textarea {
     bottom: 2%;
     display: none;
     margin: 0 auto;
-    padding:2%;
+    padding: 2%;
   }
 
   .modal-content {
@@ -955,7 +955,6 @@ textarea {
   }
 
   .feature_img {
-  
     width: 60%;
     height: 50%;
   }
@@ -967,19 +966,18 @@ textarea {
     font-weight: 400;
     font-size: 16px;
     line-height: 30px;
-    position:relative;
+    position: relative;
   }
 
   .grid-modal {
     display: flex;
     gap: 5%;
     flex-direction: column;
-    
   }
 
   .modal-button-pop {
-    position:fixed;
-    top:80%;
+    position: fixed;
+    top: 80%;
     width: 50%;
   }
 
@@ -990,6 +988,12 @@ textarea {
     position: absolute;
     left: 93%;
     top: 4%;
+  }
+
+  ul.recent-work-buttons {
+    display: flex;
+    gap: 5px;
+    margin-top: 2%;
   }
 
   .close-icon:hover {
@@ -1213,6 +1217,7 @@ textarea {
   ul.recent-work-buttons {
     display: flex;
     gap: 5px;
+    margin-top: 7%;
   }
 
   .view-button:hover {

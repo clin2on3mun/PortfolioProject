@@ -171,11 +171,11 @@ const cardSectionOutput = () => {
             <div class="modal card">
             <img src="images/Icon.png" class="close-icon">
             <h3 class="modalTitle">${recentWorkTitle}</h3>
-            <div class="modal-content">
             <ul class="buttons grid-button recent-work-buttons">
             <li><button type="button"  class="btn-work">${cardButton[0]}</button></li>
             <li><button type="button" class="btn-work">${cardButton[1]}</button></li>
             <li><button type="button" class="btn-work">${cardButton[3]}</button></li></ul>
+            <div class="modal-content">
             <img src="${imageSource}" alt = "project image" class="feature_img">
             <div class="grid-modal">
             <p class="paragraph">${projectDescription}</p>
